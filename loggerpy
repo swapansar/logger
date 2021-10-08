@@ -9,7 +9,7 @@ class Logg:
         """
         try:
             # Creating Custom Logger
-            self.logger = lg.getLogger()
+            self.logger = lg.getLogger(name)
 
         except Exception as e:
             raise Exception(e)
